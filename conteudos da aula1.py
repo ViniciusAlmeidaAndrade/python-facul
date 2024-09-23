@@ -7,4 +7,4 @@ if resultado >= 7:
 elif resultado >= 3 and resultado < 7:
     print(resultado,"O ALUNO",aluno,"ESTÁ: RECUPERAÇÃO")
 else:
-    print(resultado,"O ALUNO", aluno,"FOI: REPROVAD")
+    print(resultado,"O ALUNO", aluno,"FOI: REPROVADO")
