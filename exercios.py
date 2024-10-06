@@ -25,6 +25,19 @@ elif(f_ou_m == "m"):
 else:
     print("Sexo indefinido")
 
+# Questão extra (Já tinha feito, mas tinha esquecido no github)
+
+aluno = input("Nome do aluno: ")
+nota_1 = float(input("nota 1 de (aluno): "))
+nota_2 = float(input("Nota 2 de (aluno): "))
+resultado = (nota_1 + nota_2) / 2
+if (resultado > 7):
+    print(resultado, "O aluno", aluno,"foi: APROVADO")
+elif (resultado > 3 and resultado < 7):
+    print(resultado, "O aluno", aluno,"está de: RECUPERAÇÃO")
+else:
+    print(resultado, "O aluno", aluno, "foi: REPROVADO")
+
 #4ª questão; Faça um Programa que verifique se uma letra digitada é vogal ou consoante:
 
 vog_cons = input("Digite uma letra para saber se ela é vogal ou consoante: ")
