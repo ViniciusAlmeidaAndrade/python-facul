@@ -28,8 +28,8 @@ else:
 # Questão extra (Já tinha feito, mas tinha esquecido no github)
 
 aluno = input("Nome do aluno: ")
-nota_1 = float(input("nota 1 de (aluno): "))
-nota_2 = float(input("Nota 2 de (aluno): "))
+nota_1 = float(input(f"nota 1 de ({aluno}): "))
+nota_2 = float(input(f"Nota 2 de ({aluno}): "))
 resultado = (nota_1 + nota_2) / 2
 if (resultado > 7):
     print(resultado, "O aluno", aluno,"foi: APROVADO")

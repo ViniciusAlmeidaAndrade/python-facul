@@ -4,7 +4,7 @@ while( len(Nome) <= 3 ):
     
 idade=int(input("escrema uma idade entre 0 e 150: "))
 while(idade < 0 or idade > 150):
-    idade=int(input("escrema uma idade entre 0 e 150: "))
+    idade=int(input("escreva uma idade entre 0 e 150: "))
 
 salario=float(input("escreva seu salário: "))
 while(salario < 0):
@@ -13,7 +13,7 @@ while(salario < 0):
 sexo=str(input("Qual seu genero?: [f,m]"))
 
 # DUVIDA
-while sexo != ("f" or "Feminino") and sexo != ("m" or "masculino"):
+while sexo != "f" or "Feminino" and sexo != "m" or "masculino":
     sexo=str(input("Qual seu genero?: [f,m]"))
 
 estado_civil=str(input("Qual seu estado civil?: [Solteiro(S), Casado(C), Viuvo(V), Divorciado(D)]"))
